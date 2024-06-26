@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+   
+    width: 100%;
+    height: 90vh;
+   background-image: url(photos/space.jpg);
+   background-size: cover;
+   position: relative;
+   background-repeat: no-repeat;
+
+}
+.container .head{
+
+background-color: rgb(2, 2, 2,0.7); 
+font-family:Georgia, 'Times New Roman', Times, serif;
+margin-top: 9%;
+padding: 5%;
+float: left;
+margin-left: 150px; 
+color: white;
+width: 40%;
+}
+
+.container .head h1 {
+    margin-bottom: 7%;
+}
+
+.container .head p {
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.clear{
+    clear: both;
+}
+
+.attention {
+    margin-top: 10%;
+    background-color: rgb(20, 20,20);
+    width: 100%;
+    height: 50vh;
+}
+.attention h3{
+    font-size: 40px;
+    padding: 40px ;
+    color: white;
+    width: 35%;
+    padding-top: -25px;
+}
+
+.attention ul {
+    border-top:  1px solid;
+    color: white;
+    width: 40%;
+    margin-left: 35px;
+   
+}
+.attention li {
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+   font-size: 20px;
+    color: white
+}
+
+.calculate {
+    background-color: rgb(20, 20,20);
+    width: 100%;
+    height: 20vh;
+
+}
+.calculate .back {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    height: 10vh;
+    margin-left: 105px;
+    background-color: rgb(40, 40, 40);
+}
+
+.calculate .back p {
+    display: inline; 
+    font-size: 30px;
+    margin-right: 6%;
+    margin-left: 4%;
+    color: white;
+}
+
+.calculate #button:hover{
+color: black;
+}
+.planets{
+    
+    background-color: rgb(20, 20,20);
+    margin-top: 30%;
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.planet {
+    width: 27%;
+    height: 60vh;
+    margin: 10px;;
+    background-color: rgb(40, 40, 40);
+}
+
+.planets img{
+
+    position: absolute;
+    width: 27%;
+    height: 35vh;
+}
+.planet p {
+    margin-top: 18%;
+    margin-left: 12px;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    display: inline;
+}
+.weight p {
+    margin-top: 24%;
+    display: flex;
+    align-items: center;
+
+}
+
+.planet2 {
+    width: 27%;
+    height: 60vh;
+    margin: 10px;;
+    background-color: rgb(40, 40, 40);
+}
+
+.planet2 p {
+    
+    margin-top: 18%;
+    margin-left: 12px;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    display: inline;
+}
+
+.weight2{
+    margin-top: 19%;
+    margin-right: 3%;
+
+} 
+
+.planet3{
+    width: 27%;
+    height: 60vh;
+    margin: 10px;;
+    background-color: rgb(40, 40, 40);
+}
+
+.planet3 p {
+    
+    margin-top: 18%;
+    margin-left: 12px;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    display: inline;
+}
+
+.weight3{
+    margin-top: 18%;
+    margin-right: 3%;
+}
+
+.thanks {
+    width: 100%;
+    height: 100vh;
+    background-image: url(photos/space2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.thanks p {
+ padding: 15%;
+ color: white;
+ text-align: center;
+ font-size: 40px;
+ margin-bottom: 10px;
+}
+
